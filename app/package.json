@@ -1,0 +1,36 @@
+{
+  "name": "next-typescript-static",
+  "version": "0.0.1",
+  "description": "A boilerplate for a Next.js static site written in TypeScript.",
+  "repository": "github:ceottaki/next-typescript-static",
+  "browser": "out/index.html",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "tslint ./src/**/*.{ts,tsx} -t verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "ceottaki@gmail.com",
+    "name": "Felipe Ceotto"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "13.13.2",
+    "@types/react": "16.9.34",
+    "@types/react-dom": "16.9.6",
+    "tslint": "6.1.1",
+    "tslint-react": "5.0.0",
+    "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "bootstrap": "4.4.1",
+    "next": "9.3.5",
+    "node-sass": "4.13.1",
+    "react": "16.13.1",
+    "react-bootstrap": "1.0.1",
+    "react-dom": "16.13.1",
+    "sass": "1.26.3"
+  }
+}
