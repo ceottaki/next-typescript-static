@@ -12,7 +12,7 @@ export const Header: React.FC<IHeaderProps> = ({ siteLogo }) => {
     <div>
       <Navbar bg='light' expand='lg'>
         <Navbar.Brand href='#home'>
-          <img src={siteLogo} />
+          <img data-src={siteLogo} loading='lazy' />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>

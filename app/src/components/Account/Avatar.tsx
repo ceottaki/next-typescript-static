@@ -5,7 +5,7 @@ import styles from './Avatar.module.scss'
 export const Avatar: React.FC = () => {
   return (
     <div>
-      <img src='https://via.placeholder.com/120' alt='Avatar' />
+      <img data-src='https://via.placeholder.com/120' alt='Avatar' loading='lazy' />
     </div>
   )
 }

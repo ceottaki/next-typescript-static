@@ -14,6 +14,8 @@
   "cSpell.language": "en-GB",
   "tslint.ignoreDefinitionFiles": false,
   "cSpell.words": [
+    "lazyload",
+    "lazysizes",
     "mixins"
   ]
 }

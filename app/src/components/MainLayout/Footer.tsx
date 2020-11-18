@@ -9,7 +9,7 @@ interface IFooterProps {
 export const Footer: React.FC<IFooterProps> = ({ siteLogo }) => {
   return (
     <div className={styles.footer}>
-      <img src={siteLogo} />
+      <img data-src={siteLogo} loading='lazy' />
       Footer Here
     </div>
   )
